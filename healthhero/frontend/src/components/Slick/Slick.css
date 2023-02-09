@@ -1,0 +1,121 @@
+.schoolHome img {
+  border-radius: 100%;
+  height: 250px;
+  /* align-items: center;
+  justify-content: center;
+  justify-items: center; */
+}
+/* .schoolHome img:hover {
+  border: 2px red solid;
+} */
+#yas img {
+  filter: grayscale(0%);
+  filter: rgb(160, 159, 159);
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 0.5s ease;
+}
+
+#yas img:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+  transition: 1s;
+}
+
+#okur img {
+  transition: 1s ease;
+}
+
+#okur img:hover {
+  -webkit-transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(-10deg);
+  transform: rotateZ(-10deg);
+  transition: 1s ease;
+}
+
+.slider {
+  /* max-width: 800px;
+  min-width: 800px; */
+  width: 800px;
+}
+.liBrB {
+  background-color: #b1907f;
+}
+
+.content {
+  padding: 0;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .content {
+    /* background: red; */
+    flex-wrap: wrap;
+  }
+  .schoolHome img {
+    height: 120px;
+  }
+  .slider {
+    width: 350px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .content {
+    /* background: green; */
+    /* display: flex; */
+    flex-wrap: wrap;
+  }
+  .schoolHome img {
+    height: 200px;
+  }
+  .slider {
+    width: 600px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .content {
+    /* background: blue; */
+    flex-wrap: wrap;
+    /* at blue is where we start issues */
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .content {
+    padding: 0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .schoolHome img {
+    border-radius: 100%;
+    height: 250px;
+  }
+  .slider {
+    width: 800px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+  .content {
+    background: pink;
+  }
+} */
+
+.butRight {
+  margin-right: 20px;
+}
+.butLeft {
+  margin-left: 5px;
+}

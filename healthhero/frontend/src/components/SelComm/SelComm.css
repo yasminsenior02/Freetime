@@ -1,0 +1,25 @@
+#greenb {
+  background-color: darkgreen;
+}
+.container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.buttoncomm{
+  background-color: #8fcf7f;
+  color: #0e3804;
+}
+/* .buttoncomm {
+  background-color: #795548;
+  color: azure;
+  padding: 10px;
+  margin-right: 30px;
+  float: right;
+} */
+
+a.link {
+  text-decoration: none;
+  color: rgba(121,85,72,1);
+}

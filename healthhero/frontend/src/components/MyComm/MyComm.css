@@ -1,0 +1,110 @@
+.myCom {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.myCom h1 {
+  /* color: darkseagreen; */
+  color: rgb(101, 55, 2);
+}
+h3 {
+  color: #124905;
+}
+#roundP {
+  background-color: #dde7c7;
+  color: #0e3804;
+  border-radius: 100%;
+
+  width: 285px;
+  height: 237px;
+  text-align: center;
+  justify-items: center;
+}
+#rect {
+  background-color: #196406;
+  color: #adc89c;
+  margin-top: 20px;
+  width: 370px;
+  height: 163px;
+  border-radius: 15px;
+}
+
+.circles {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-transform: capitalize;
+  color: rgb(101, 55, 2);
+}
+
+.smoval {
+  background-color: #dde7c7;
+  color: #0e3804;
+  width: 15%;
+  min-width: min-content;
+  height: 20%;
+  text-align: center;
+  justify-items: center;
+  border-radius: 15px;
+  margin: 2%;
+}
+.smoval2 {
+  background-color: #b4e8a7;
+  color: #0e3804;
+  width: 15%;
+  min-width: min-content;
+  height: 20%;
+  text-align: center;
+  justify-items: center;
+  border-radius: 15px;
+  margin: 2%;
+}
+.smoval2 {
+  background-color: #8fcf7f;
+  color: #0e3804;
+  width: 15%;
+  min-width: min-content;
+  height: 20%;
+  text-align: center;
+  justify-items: center;
+  border-radius: 15px;
+  margin: 2%;
+}
+.smoval3 {
+  background-color: #0e3804;
+  color: #699b5c;
+  width: 15%;
+  min-width: min-content;
+  height: 20%;
+  text-align: center;
+  justify-items: center;
+  border-radius: 15px;
+  margin: 2%;
+  padding: 7px;
+}
+.info {
+  /* justify-items: center;
+  text-align: center; doing nothing */
+  /* display: flex; */
+  margin-top: 10%;
+  /* padding-top: 10%; */
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+
+.padT {
+  margin-top: 6%;
+  border-radius: 6px;
+  /* width: 30%; */
+}
+#left {
+  padding-top: 1%;
+}
+
+.product-card {
+  margin-bottom: 0%;
+}

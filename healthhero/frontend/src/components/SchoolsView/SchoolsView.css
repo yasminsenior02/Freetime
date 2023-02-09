@@ -1,0 +1,87 @@
+.schoolImgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .schoolImgs img {
+  padding: 15px;
+} */
+
+.pickSchool {
+  color: #b3cf99;
+}
+.marg {
+  margin: 2%;
+}
+label {
+  color: #b3cf99;
+  /* color: #cdd7c3 */
+}
+
+#custom-input-demo {
+  color: rgb(16, 51, 7);
+}
+/* .selS {
+  padding: 20%;
+} */
+.viewS input {
+  border-radius: 8px;
+  /* background-color: #adc89c; */
+}
+.viewS h1 {
+  color: #b3cf99;
+}
+.viewS ::placeholder {
+  color: rgb(16, 51, 7);
+}
+
+#selS {
+  font-size: 22px;
+}
+
+/* .yellowBo {
+  border: 2px solid #ffcb05;
+  border-radius: 120%;
+} */
+
+.schoolImgs button {
+  background-color: transparent;
+  border-radius: 100%;
+}
+
+.schoolButton {
+  background-color: transparent;
+  border: 0px;
+}
+
+#ma {
+  margin-bottom: 1%;
+}
+
+#searchy {
+  color: darkgreen;
+  background: rgb(39, 14, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  height: 30px;
+  width: 30px;
+  float: left;
+}
+
+.flexy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.searchbar{
+  justify-content: center;
+  border: solid 1px #e4e4e4;
+  border-radius: 8px 0 0 8px;
+  flex: 1;
+  font-size: 16px;
+  padding: 0 15px;
+}

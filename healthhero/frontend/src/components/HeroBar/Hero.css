@@ -1,0 +1,25 @@
+/*  */
+
+
+.HeroContent{
+    background-image: url("https://img.freepik.com/free-vector/green-leaf-design-element-set-beige-background-vector_53876-118061.jpg?w=2000&t=st=1659077279~exp=1659077879~hmac=3c0ec4bce4df720e39dbd6fd94aa1693032735eeee35b1496cfe698639988cbf");
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro{
+    background-color: #B3CF99;
+    border-radius: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    max-width: fit-content;
+    margin: 0 auto;
+
+}
+
+.heroDesc{
+    font-size: 25px;
+}

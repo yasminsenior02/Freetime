@@ -1,0 +1,21 @@
+.logoPlaceHolder {
+  color: white;
+}
+
+.hyperLink {
+  color: white;
+}
+
+.leaflogo {
+  height: 40px;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  margin-left: 15%;
+}
+
+#expand {
+  padding-top: 5%;
+  height: 50px;
+  width: 35px;
+}

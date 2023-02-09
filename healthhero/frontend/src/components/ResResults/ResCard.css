@@ -1,0 +1,29 @@
+.resname {
+  color: #0e3804;
+}
+
+.resdes {
+  color: #0e3804;
+}
+
+.ResCard {
+  border: 1px darkgreen dotted;
+  /* margin-right: 100px; */
+  /* padding-bottom: 100px; */
+  /* width: 600px; */
+  /* min-width: 200px;
+    max-width: 800px; */
+  /* width: max-content; */
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  background-color: #d6e4d2;
+  color: #0e3804;
+  /* background-color: rgb(173, 237, 207); */
+  /* background-color: rgb(224, 157, 103); */
+}
+.resImage {
+  border-radius: 8px;
+  /* width: 80%; */
+}

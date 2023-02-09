@@ -1,0 +1,26 @@
+#profTitle {
+  width: 290px;
+  height: 75px;
+  display: flex;
+  background: #0e3804;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#profTitle p {
+  text-align: center;
+}
+#round {
+  width: 478px;
+  height: 444px;
+  border-radius: 100%;
+  background: #9cc63f;
+}
+.backgroundP {
+  /* background-image: url(https://img.freepik.com/free-vector/watercolor-nature-background-with-leaves_52683-59449.jpg?size=626&ext=jpg&ga=GA1.2.1260976141.1658435264);
+  width: 100vh; */
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+}

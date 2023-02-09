@@ -1,0 +1,111 @@
+.Restaurant {
+  display: flex;
+  align-items: center;
+  /* min-height: 100vh; */
+  /* height: 100%; */
+  /* max-height: 100vh; */
+  width: 100%;
+  max-width: 100vw;
+  justify-content: center;
+  font-size: larger;
+  text-align: center;
+  background-color: #f4ebd0;
+  color: #1e6b0b;
+  /* rgb(243, 228, 191); */
+}
+
+.formTitles{
+  color: rgb(68, 68, 68);
+}
+.selType {
+  height: 40px;
+  padding: 8px;
+  font-size: 16px;
+  border: solid 1px var(--border-color);
+  width: 35%;
+  background-color: #adc89c;
+  margin-left: 250px;
+  border-radius: 10px;
+}
+option {
+  color: rgb(247, 245, 240);
+}
+
+.Restaurant .card {
+  outline: 2px #1e6b0b dotted;
+  min-height: 600px;
+  width: 630px;
+  padding: 24px 36px;
+  flex-direction: column;
+  background-color: #dde7c7;
+  border-radius: 5px;
+  /* margin-top: 110px;
+  margin-bottom: 100px; */
+  margin: 50px 10px;
+  /* margin: 50px; */
+}
+
+.Restaurant h2 {
+  color: #1e6b0b;
+  font-weight: 450;
+}
+
+.Restaurant .btn {
+  width: 50%;
+  height: 60px;
+  color: white;
+  font-size: 20px;
+  /* display: flex; */
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  background-color: #795548;
+  /* border: none; */
+  cursor: pointer;
+}
+
+.Restaurant .card .error {
+  color: var(--bright-red);
+}
+/* test this ^ */
+
+.Restaurant .card .footer {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 100%;
+}
+
+.Restaurant .footer a {
+  color: #795548;
+}
+
+.Restaurant input {
+  height: 40px;
+  padding: 8px;
+  font-size: 16px;
+  border: solid 1px var(--border-color);
+  width: 100%;
+  background-color: #adc89c;
+  border-radius: 10px;
+
+  /* rgb(72, 129, 92); */
+  /* color: azure; */
+}
+
+.text-field-input {
+  /* height: 40px; */
+  padding: 8px;
+  font-size: 16px;
+  border: solid 1px var(--border-color);
+  /* width: 100%; */
+  background-color: #adc89c;
+  border-radius: 10px;
+}
+.text-field {
+  width: 100%;
+}
+::placeholder {
+  color: rgb(247, 245, 240);
+}
